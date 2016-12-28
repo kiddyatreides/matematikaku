@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiddy.matematikaku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".Secant"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".Menumtk"></activity>
+        <activity android:name=".Kedua"></activity>
+        <activity android:name=".Ketiga"></activity>
+        <activity android:name=".Keempat"></activity>
+        <activity android:name=".Kelima"></activity>
+
+    </application>
+
+
+</manifest>

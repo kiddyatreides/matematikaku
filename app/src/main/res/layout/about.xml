@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Us \n\n\n This Application \n Created By"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:textSize="15pt"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M Hudya Ramadhana"
+        android:id="@+id/hudya"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and"
+        android:textAlignment="center"
+        android:id="@+id/alfathan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hudya"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M Alfathan P"
+        android:textAlignment="center"
+        android:id="@+id/alfathan2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alfathan"
+        android:layout_marginTop="15dp"
+        android:textSize="10pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CCIT 3B\n State Polytechnic of Jakarta"
+        android:textAlignment="center"
+        android:id="@+id/pnj"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alfathan2"
+        android:layout_marginTop="78dp"
+        android:textSize="10pt"
+        />
+</RelativeLayout>

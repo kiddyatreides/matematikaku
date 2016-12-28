@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_secant2"
+        android:src="@drawable/math"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_secant2"
+        android:text="Metode Secant"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt1_ah"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_about"
+        android:src="@drawable/about"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txt1_ah"
+        android:layout_alignLeft="@+id/btn_secant2"
+        android:layout_alignStart="@+id/btn_secant2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_about"
+        android:layout_marginTop="5dp"
+        android:text="Tentang Pembuat"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/txt2"
+        />
+
+
+</RelativeLayout>
